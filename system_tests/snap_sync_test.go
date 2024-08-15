@@ -15,10 +15,10 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/offchainlabs/nitro/arbnode"
-	"github.com/offchainlabs/nitro/arbos/l2pricing"
-	"github.com/offchainlabs/nitro/util"
-	"github.com/offchainlabs/nitro/util/testhelpers"
+	"github.com/0x090909/nitro/arbnode"
+	"github.com/0x090909/nitro/arbos/l2pricing"
+	"github.com/0x090909/nitro/util"
+	"github.com/0x090909/nitro/util/testhelpers"
 )
 
 func TestSnapSync(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 var AddressAliasOffset *big.Int

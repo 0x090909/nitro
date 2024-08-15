@@ -3,8 +3,8 @@ package server_arb
 import (
 	"context"
 
+	"github.com/0x090909/nitro/validator/server_common"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/validator/server_common"
 )
 
 type ArbitratorMachineConfig struct {

@@ -4,10 +4,10 @@
 package merkleAccumulator
 
 import (
+	"github.com/0x090909/nitro/arbos/storage"
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbos/storage"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 type MerkleAccumulator struct {

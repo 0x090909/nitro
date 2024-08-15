@@ -7,10 +7,10 @@ import (
 	"math"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbos/util"
+	am "github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/offchainlabs/nitro/arbos/util"
-	am "github.com/offchainlabs/nitro/util/arbmath"
 )
 
 func (ps *L1PricingState) _preversion10_UpdateForBatchPosterSpending(

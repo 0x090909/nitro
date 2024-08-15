@@ -8,11 +8,11 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/burn"
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbos/burn"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 func requirePanic(t *testing.T, testCase interface{}, f func()) {

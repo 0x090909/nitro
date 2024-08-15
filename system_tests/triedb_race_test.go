@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum/arbitrum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 func TestTrieDBCommitRace(t *testing.T) {

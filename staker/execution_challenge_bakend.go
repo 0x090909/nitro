@@ -6,8 +6,8 @@ package staker
 import (
 	"context"
 
+	"github.com/0x090909/nitro/validator"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/validator"
 )
 
 type ExecutionChallengeBackend struct {

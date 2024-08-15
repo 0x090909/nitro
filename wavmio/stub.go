@@ -14,10 +14,10 @@ import (
 	"io"
 	"os"
 
+	"github.com/0x090909/nitro/arbutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/arbutil"
 )
 
 // source for arrayFlags: https://stackoverflow.com/questions/28322997/how-to-get-a-list-of-values-into-a-flag-in-golang

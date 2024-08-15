@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/0x090909/nitro/arbstate/daprovider"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/arbstate/daprovider"
 )
 
 type WriterPanicWrapper struct {

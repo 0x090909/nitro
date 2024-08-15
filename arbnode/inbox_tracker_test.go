@@ -3,8 +3,8 @@ package arbnode
 import (
 	"testing"
 
+	"github.com/0x090909/nitro/util/containers"
 	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/offchainlabs/nitro/util/containers"
 )
 
 func TestDeleteBatchMetadata(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 func TestLogArgs(t *testing.T) {

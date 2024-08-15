@@ -20,9 +20,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/offchainlabs/nitro/blsSignatures"
-	"github.com/offchainlabs/nitro/cmd/genericconf"
-	"github.com/offchainlabs/nitro/util/pretty"
+	"github.com/0x090909/nitro/blsSignatures"
+	"github.com/0x090909/nitro/cmd/genericconf"
+	"github.com/0x090909/nitro/util/pretty"
 )
 
 var (

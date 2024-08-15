@@ -1,5 +1,5 @@
 // Copyright 2021-2023, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 package server_arb
 
@@ -17,9 +17,9 @@ import (
 	"path/filepath"
 	"unsafe"
 
+	"github.com/0x090909/nitro/validator/server_common"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/validator/server_common"
 )
 
 func createArbMachine(ctx context.Context, locator *server_common.MachineLocator, config *ArbitratorMachineConfig, moduleRoot common.Hash) (*arbMachines, error) {

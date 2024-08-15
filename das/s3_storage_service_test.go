@@ -14,8 +14,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 
-	"github.com/offchainlabs/nitro/cmd/genericconf"
-	"github.com/offchainlabs/nitro/das/dastree"
+	"github.com/0x090909/nitro/cmd/genericconf"
+	"github.com/0x090909/nitro/das/dastree"
 )
 
 type mockS3Uploader struct {

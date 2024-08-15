@@ -8,9 +8,9 @@ package addressSet
 import (
 	"errors"
 
+	"github.com/0x090909/nitro/arbos/storage"
+	"github.com/0x090909/nitro/arbos/util"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/arbos/storage"
-	"github.com/offchainlabs/nitro/arbos/util"
 )
 
 // AddressSet represents a set of addresses

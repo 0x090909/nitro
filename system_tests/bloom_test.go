@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/solgen/go/mocksgen"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/offchainlabs/nitro/solgen/go/mocksgen"
 )
 
 func TestBloom(t *testing.T) {

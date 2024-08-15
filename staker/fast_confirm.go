@@ -1,5 +1,5 @@
 // Copyright 2023-2024, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 package staker
 
@@ -15,10 +15,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/offchainlabs/nitro/solgen/go/contractsgen"
-	"github.com/offchainlabs/nitro/solgen/go/rollupgen"
-	"github.com/offchainlabs/nitro/staker/txbuilder"
-	"github.com/offchainlabs/nitro/util/headerreader"
+	"github.com/0x090909/nitro/solgen/go/contractsgen"
+	"github.com/0x090909/nitro/solgen/go/rollupgen"
+	"github.com/0x090909/nitro/staker/txbuilder"
+	"github.com/0x090909/nitro/util/headerreader"
 )
 
 type FastConfirmSafe struct {

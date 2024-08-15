@@ -7,8 +7,8 @@ import (
 	"encoding/binary"
 	"errors"
 
+	"github.com/0x090909/nitro/arbos/storage"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/arbos/storage"
 )
 
 type Blockhashes struct {

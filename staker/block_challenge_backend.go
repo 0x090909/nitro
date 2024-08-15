@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbutil"
+	"github.com/0x090909/nitro/solgen/go/challengegen"
+	"github.com/0x090909/nitro/validator"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbutil"
-	"github.com/offchainlabs/nitro/solgen/go/challengegen"
-	"github.com/offchainlabs/nitro/validator"
 )
 
 type BlockChallengeBackend struct {

@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos"
+	"github.com/0x090909/nitro/arbos/arbosState"
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/arbos"
-	"github.com/offchainlabs/nitro/arbos/arbosState"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 func TestArbAddressTableInit(t *testing.T) {

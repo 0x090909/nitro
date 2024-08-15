@@ -8,6 +8,13 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/arbostypes"
+	"github.com/0x090909/nitro/solgen/go/mocksgen"
+	"github.com/0x090909/nitro/solgen/go/node_interfacegen"
+	"github.com/0x090909/nitro/solgen/go/precompilesgen"
+	"github.com/0x090909/nitro/util/arbmath"
+	"github.com/0x090909/nitro/util/colors"
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
@@ -15,13 +22,6 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/eth/gasestimator"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/arbos/arbostypes"
-	"github.com/offchainlabs/nitro/solgen/go/mocksgen"
-	"github.com/offchainlabs/nitro/solgen/go/node_interfacegen"
-	"github.com/offchainlabs/nitro/solgen/go/precompilesgen"
-	"github.com/offchainlabs/nitro/util/arbmath"
-	"github.com/offchainlabs/nitro/util/colors"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 func TestDeploy(t *testing.T) {

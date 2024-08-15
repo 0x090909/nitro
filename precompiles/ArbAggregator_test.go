@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/l1pricing"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbos/l1pricing"
 )
 
 func TestArbAggregatorBatchPosters(t *testing.T) {

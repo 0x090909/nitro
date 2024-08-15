@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/0x090909/nitro/solgen/go/bridgegen"
+	"github.com/0x090909/nitro/util/contracts"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/solgen/go/bridgegen"
-	"github.com/offchainlabs/nitro/util/contracts"
 )
 
 // SignatureVerifier.Store will try to verify that the passed-in data's signature

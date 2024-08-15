@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbos/arbostypes"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/arbos/arbostypes"
 )
 
 func ExampleBroadcastMessage_broadcastfeedmessageWithBlockHash() {

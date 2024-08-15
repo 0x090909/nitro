@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/arbostypes"
+	"github.com/0x090909/nitro/arbutil"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/offchainlabs/nitro/arbos/arbostypes"
-	"github.com/offchainlabs/nitro/arbutil"
 )
 
 type MessageResult struct {

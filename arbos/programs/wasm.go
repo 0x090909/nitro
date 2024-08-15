@@ -1,5 +1,5 @@
 // Copyright 2022-2024, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 //go:build wasm
 // +build wasm
@@ -10,14 +10,14 @@ import (
 	"errors"
 	"unsafe"
 
+	"github.com/0x090909/nitro/arbos/burn"
+	"github.com/0x090909/nitro/arbos/util"
+	"github.com/0x090909/nitro/arbutil"
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/arbos/burn"
-	"github.com/offchainlabs/nitro/arbos/util"
-	"github.com/offchainlabs/nitro/arbutil"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 type addr = common.Address

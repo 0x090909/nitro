@@ -9,10 +9,10 @@ import (
 	"bytes"
 	"errors"
 
+	"github.com/0x090909/nitro/arbos/storage"
+	"github.com/0x090909/nitro/arbos/util"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/offchainlabs/nitro/arbos/storage"
-	"github.com/offchainlabs/nitro/arbos/util"
 )
 
 type AddressTable struct {

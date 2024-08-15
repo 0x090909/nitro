@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/offchainlabs/nitro/arbnode/redislock"
-	"github.com/offchainlabs/nitro/util/redisutil"
+	"github.com/0x090909/nitro/arbnode/redislock"
+	"github.com/0x090909/nitro/util/redisutil"
 )
 
 func prepareTrue() bool  { return true }

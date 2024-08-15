@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/util/containers"
+	"github.com/0x090909/nitro/util/redisutil"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	"github.com/offchainlabs/nitro/util/containers"
-	"github.com/offchainlabs/nitro/util/redisutil"
 )
 
 var (

@@ -10,8 +10,8 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 func TestMath(t *testing.T) {

@@ -15,11 +15,11 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/0x090909/nitro/util/arbmath"
+	"github.com/0x090909/nitro/validator"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/offchainlabs/nitro/util/arbmath"
-	"github.com/offchainlabs/nitro/validator"
 )
 
 var jitWasmMemoryUsage = metrics.NewRegisteredHistogram("jit/wasm/memoryusage", nil, metrics.NewBoundedHistogramSample())

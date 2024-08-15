@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/burn"
+	"github.com/0x090909/nitro/arbos/storage"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/arbos/burn"
-	"github.com/offchainlabs/nitro/arbos/storage"
 )
 
 func TestL1PriceUpdate(t *testing.T) {

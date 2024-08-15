@@ -1,5 +1,5 @@
 // Copyright 2023-2024, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 // race detection makes things slow and miss timeouts
 //go:build !race
@@ -23,18 +23,18 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/offchainlabs/nitro/arbnode"
-	"github.com/offchainlabs/nitro/arbnode/dataposter/externalsignertest"
-	"github.com/offchainlabs/nitro/arbnode/dataposter/storage"
-	"github.com/offchainlabs/nitro/arbos/l2pricing"
-	"github.com/offchainlabs/nitro/solgen/go/contractsgen"
-	"github.com/offchainlabs/nitro/solgen/go/proxiesgen"
-	"github.com/offchainlabs/nitro/solgen/go/rollupgen"
-	"github.com/offchainlabs/nitro/solgen/go/upgrade_executorgen"
-	"github.com/offchainlabs/nitro/staker"
-	"github.com/offchainlabs/nitro/staker/validatorwallet"
-	"github.com/offchainlabs/nitro/util"
-	"github.com/offchainlabs/nitro/validator/valnode"
+	"github.com/0x090909/nitro/arbnode"
+	"github.com/0x090909/nitro/arbnode/dataposter/externalsignertest"
+	"github.com/0x090909/nitro/arbnode/dataposter/storage"
+	"github.com/0x090909/nitro/arbos/l2pricing"
+	"github.com/0x090909/nitro/solgen/go/contractsgen"
+	"github.com/0x090909/nitro/solgen/go/proxiesgen"
+	"github.com/0x090909/nitro/solgen/go/rollupgen"
+	"github.com/0x090909/nitro/solgen/go/upgrade_executorgen"
+	"github.com/0x090909/nitro/staker"
+	"github.com/0x090909/nitro/staker/validatorwallet"
+	"github.com/0x090909/nitro/util"
+	"github.com/0x090909/nitro/validator/valnode"
 )
 
 func TestFastConfirmation(t *testing.T) {

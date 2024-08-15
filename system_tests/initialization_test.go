@@ -8,11 +8,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/0x090909/nitro/statetransfer"
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/statetransfer"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 // Each contract gets a set of storage cells with values, and code that returns a sum of their cell

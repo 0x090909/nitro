@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/0x090909/nitro/validator"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/validator"
 )
 
 type mockMachine struct {

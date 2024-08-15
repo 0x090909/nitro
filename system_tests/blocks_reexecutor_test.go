@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	blocksreexecutor "github.com/0x090909/nitro/blocks_reexecutor"
 	"github.com/ethereum/go-ethereum/common"
-	blocksreexecutor "github.com/offchainlabs/nitro/blocks_reexecutor"
 )
 
 func TestBlocksReExecutorModes(t *testing.T) {

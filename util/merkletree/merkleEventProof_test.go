@@ -6,11 +6,11 @@ package merkletree
 import (
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/burn"
+	"github.com/0x090909/nitro/arbos/merkleAccumulator"
+	"github.com/0x090909/nitro/arbos/storage"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbos/burn"
-	"github.com/offchainlabs/nitro/arbos/merkleAccumulator"
-	"github.com/offchainlabs/nitro/arbos/storage"
 )
 
 func initializedMerkleAccumulatorForTesting() *merkleAccumulator.MerkleAccumulator {

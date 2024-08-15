@@ -19,10 +19,10 @@ import (
 	"github.com/ethereum/go-ethereum/metrics/exp"
 	"github.com/ethereum/go-ethereum/node"
 
-	"github.com/offchainlabs/nitro/cmd/genericconf"
-	"github.com/offchainlabs/nitro/cmd/util/confighelpers"
-	_ "github.com/offchainlabs/nitro/execution/nodeInterface"
-	"github.com/offchainlabs/nitro/validator/valnode"
+	"github.com/0x090909/nitro/cmd/genericconf"
+	"github.com/0x090909/nitro/cmd/util/confighelpers"
+	_ "github.com/0x090909/nitro/execution/nodeInterface"
+	"github.com/0x090909/nitro/validator/valnode"
 )
 
 func printSampleUsage(name string) {

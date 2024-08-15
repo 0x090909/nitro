@@ -6,18 +6,18 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/0x090909/nitro/cmd/chaininfo"
+	"github.com/0x090909/nitro/solgen/go/bridgegen"
+	"github.com/0x090909/nitro/solgen/go/challengegen"
+	"github.com/0x090909/nitro/solgen/go/ospgen"
+	"github.com/0x090909/nitro/solgen/go/rollupgen"
+	"github.com/0x090909/nitro/solgen/go/upgrade_executorgen"
+	"github.com/0x090909/nitro/solgen/go/yulgen"
+	"github.com/0x090909/nitro/util/headerreader"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/cmd/chaininfo"
-	"github.com/offchainlabs/nitro/solgen/go/bridgegen"
-	"github.com/offchainlabs/nitro/solgen/go/challengegen"
-	"github.com/offchainlabs/nitro/solgen/go/ospgen"
-	"github.com/offchainlabs/nitro/solgen/go/rollupgen"
-	"github.com/offchainlabs/nitro/solgen/go/upgrade_executorgen"
-	"github.com/offchainlabs/nitro/solgen/go/yulgen"
-	"github.com/offchainlabs/nitro/util/headerreader"
 )
 
 func andTxSucceeded(ctx context.Context, l1Reader *headerreader.HeaderReader, tx *types.Transaction, err error) error {

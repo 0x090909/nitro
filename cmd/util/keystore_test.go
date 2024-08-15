@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 
-	"github.com/offchainlabs/nitro/cmd/genericconf"
+	"github.com/0x090909/nitro/cmd/genericconf"
 )
 
 func openTestKeystore(description string, walletConfig *genericconf.WalletConfig, getPassword func() (string, error)) (*keystore.KeyStore, *accounts.Account, error) {

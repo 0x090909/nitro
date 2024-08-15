@@ -1,13 +1,13 @@
 // Copyright 2024, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 package programs
 
 import (
 	"math/big"
 
-	"github.com/offchainlabs/nitro/arbos/storage"
-	"github.com/offchainlabs/nitro/util/arbmath"
+	"github.com/0x090909/nitro/arbos/storage"
+	"github.com/0x090909/nitro/util/arbmath"
 )
 
 type DataPricer struct {

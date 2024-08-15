@@ -6,11 +6,11 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/0x090909/nitro/cmd/seq-coordinator-manager/rediscoordinator"
+	"github.com/0x090909/nitro/util/redisutil"
 	"github.com/enescakir/emoji"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/gdamore/tcell/v2"
-	"github.com/offchainlabs/nitro/cmd/seq-coordinator-manager/rediscoordinator"
-	"github.com/offchainlabs/nitro/util/redisutil"
 	"github.com/rivo/tview"
 )
 

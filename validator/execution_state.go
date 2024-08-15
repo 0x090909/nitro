@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/0x090909/nitro/solgen/go/challengegen"
+	"github.com/0x090909/nitro/solgen/go/rollupgen"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/solgen/go/challengegen"
-	"github.com/offchainlabs/nitro/solgen/go/rollupgen"
 )
 
 type GoGlobalState struct {

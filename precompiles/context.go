@@ -11,10 +11,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/offchainlabs/nitro/arbos"
-	"github.com/offchainlabs/nitro/arbos/arbosState"
-	"github.com/offchainlabs/nitro/arbos/burn"
-	"github.com/offchainlabs/nitro/arbos/util"
+	"github.com/0x090909/nitro/arbos"
+	"github.com/0x090909/nitro/arbos/arbosState"
+	"github.com/0x090909/nitro/arbos/burn"
+	"github.com/0x090909/nitro/arbos/util"
 )
 
 type addr = common.Address

@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/solgen/go/mocksgen"
+	"github.com/0x090909/nitro/util/arbmath"
+	"github.com/0x090909/nitro/util/colors"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/solgen/go/mocksgen"
-	"github.com/offchainlabs/nitro/util/arbmath"
-	"github.com/offchainlabs/nitro/util/colors"
 )
 
 func TestSequencerRejection(t *testing.T) {

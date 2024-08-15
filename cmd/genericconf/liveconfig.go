@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/0x090909/nitro/util/stopwaiter"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/util/stopwaiter"
 )
 
 type ConfigConstrain[T any] interface {

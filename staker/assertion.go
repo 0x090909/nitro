@@ -9,9 +9,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/offchainlabs/nitro/solgen/go/rollupgen"
-	"github.com/offchainlabs/nitro/util/arbmath"
-	"github.com/offchainlabs/nitro/validator"
+	"github.com/0x090909/nitro/solgen/go/rollupgen"
+	"github.com/0x090909/nitro/util/arbmath"
+	"github.com/0x090909/nitro/validator"
 )
 
 func NewAssertionFromSolidity(assertion rollupgen.Assertion) *Assertion {

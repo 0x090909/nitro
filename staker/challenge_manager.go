@@ -10,6 +10,9 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbutil"
+	"github.com/0x090909/nitro/solgen/go/challengegen"
+	"github.com/0x090909/nitro/validator"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
@@ -17,9 +20,6 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/offchainlabs/nitro/arbutil"
-	"github.com/offchainlabs/nitro/solgen/go/challengegen"
-	"github.com/offchainlabs/nitro/validator"
 )
 
 const maxBisectionDegree uint64 = 40

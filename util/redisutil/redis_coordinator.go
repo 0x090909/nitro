@@ -10,7 +10,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/offchainlabs/nitro/arbutil"
+	"github.com/0x090909/nitro/arbutil"
 )
 
 const CHOSENSEQ_KEY string = "coordinator.chosen"                 // Never overwritten. Expires or released only

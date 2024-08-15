@@ -9,10 +9,10 @@ import (
 	"io"
 	"time"
 
+	"github.com/0x090909/nitro/arbutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/offchainlabs/nitro/arbutil"
 )
 
 var (
@@ -81,7 +81,7 @@ func (qt *QueuedTransaction) DecodeRLP(s *rlp.Stream) error {
 }
 
 // LegacyQueuedTransaction is used for backwards compatibility.
-// Before https://github.com/OffchainLabs/nitro/pull/1773: the queuedTransaction
+// Before https://github.com/0x090909/nitro/pull/1773: the queuedTransaction
 // looked like this and was rlp encoded directly. After the pr, we are store
 // rlp encoding of Meta into queuedTransaction and rlp encoding it once more
 // to store it.

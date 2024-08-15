@@ -7,10 +7,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	"github.com/0x090909/nitro/arbutil"
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbutil"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 const BinSize = 64 * 1024 // 64 kB

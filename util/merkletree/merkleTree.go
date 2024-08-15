@@ -8,9 +8,9 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbos/util"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbos/util"
 )
 
 type MerkleTree interface {

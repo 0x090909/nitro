@@ -1,8 +1,8 @@
 package validator
 
 import (
+	"github.com/0x090909/nitro/arbutil"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/arbutil"
 )
 
 type BatchInfo struct {

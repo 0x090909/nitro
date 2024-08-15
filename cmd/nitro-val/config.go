@@ -6,14 +6,14 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/0x090909/nitro/cmd/conf"
+	"github.com/0x090909/nitro/cmd/genericconf"
+	"github.com/0x090909/nitro/util/colors"
+	"github.com/0x090909/nitro/validator/valnode"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/nat"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/offchainlabs/nitro/cmd/conf"
-	"github.com/offchainlabs/nitro/cmd/genericconf"
-	"github.com/offchainlabs/nitro/util/colors"
-	"github.com/offchainlabs/nitro/validator/valnode"
 	flag "github.com/spf13/pflag"
 )
 

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/0x090909/nitro/solgen/go/bridgegen"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/solgen/go/bridgegen"
 )
 
 type AddressVerifier struct {

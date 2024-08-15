@@ -9,7 +9,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/offchainlabs/nitro/util/signature"
+	"github.com/0x090909/nitro/util/signature"
 )
 
 func TestStoreSigning(t *testing.T) {

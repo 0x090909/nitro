@@ -17,7 +17,7 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/offchainlabs/nitro/util/signature"
+	"github.com/0x090909/nitro/util/signature"
 )
 
 type ClientConfig struct {

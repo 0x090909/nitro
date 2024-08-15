@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/arbnode"
+	"github.com/0x090909/nitro/util/redisutil"
 	"github.com/alicebob/miniredis/v2"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/offchainlabs/nitro/arbnode"
-	"github.com/offchainlabs/nitro/util/redisutil"
 )
 
 var transferAmount = big.NewInt(1e12) // amount of ether to use for transactions in tests

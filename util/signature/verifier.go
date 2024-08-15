@@ -13,7 +13,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/offchainlabs/nitro/util/contracts"
+	"github.com/0x090909/nitro/util/contracts"
 )
 
 type Verifier struct {

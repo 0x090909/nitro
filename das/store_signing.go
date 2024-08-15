@@ -9,8 +9,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/offchainlabs/nitro/das/dastree"
-	"github.com/offchainlabs/nitro/util/signature"
+	"github.com/0x090909/nitro/das/dastree"
+	"github.com/0x090909/nitro/util/signature"
 )
 
 var uniquifyingPrefix = []byte("Arbitrum Nitro DAS API Store:")

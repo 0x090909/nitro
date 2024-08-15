@@ -7,6 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/arbnode/dataposter/externalsignertest"
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/Knetic/govaluate"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -18,8 +20,6 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/google/go-cmp/cmp"
 	"github.com/holiman/uint256"
-	"github.com/offchainlabs/nitro/arbnode/dataposter/externalsignertest"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 func signerTestCfg(addr common.Address, url string) (*ExternalSignerCfg, error) {

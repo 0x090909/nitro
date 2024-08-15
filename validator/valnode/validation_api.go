@@ -1,5 +1,5 @@
 // Copyright 2023-2024, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 package valnode
 
@@ -13,10 +13,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/offchainlabs/nitro/util/stopwaiter"
-	"github.com/offchainlabs/nitro/validator"
-	"github.com/offchainlabs/nitro/validator/server_api"
-	"github.com/offchainlabs/nitro/validator/server_arb"
+	"github.com/0x090909/nitro/util/stopwaiter"
+	"github.com/0x090909/nitro/validator"
+	"github.com/0x090909/nitro/validator/server_api"
+	"github.com/0x090909/nitro/validator/server_arb"
 )
 
 type ValidationServerAPI struct {

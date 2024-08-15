@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 const testStopDelayWarningTimeout = 350 * time.Millisecond

@@ -8,10 +8,10 @@ import (
 	"encoding/binary"
 	"testing"
 
+	"github.com/0x090909/nitro/arbos/arbostypes"
+	"github.com/0x090909/nitro/solgen/go/bridgegen"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/offchainlabs/nitro/arbos/arbostypes"
-	"github.com/offchainlabs/nitro/solgen/go/bridgegen"
 )
 
 func TestSequencerReorgFromDelayed(t *testing.T) {

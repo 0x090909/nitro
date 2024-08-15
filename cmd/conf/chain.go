@@ -6,9 +6,9 @@ package conf
 import (
 	"time"
 
-	"github.com/offchainlabs/nitro/cmd/genericconf"
-	"github.com/offchainlabs/nitro/util/headerreader"
-	"github.com/offchainlabs/nitro/util/rpcclient"
+	"github.com/0x090909/nitro/cmd/genericconf"
+	"github.com/0x090909/nitro/util/headerreader"
+	"github.com/0x090909/nitro/util/rpcclient"
 	flag "github.com/spf13/pflag"
 )
 

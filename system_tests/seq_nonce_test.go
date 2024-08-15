@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/util/arbmath"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
-	"github.com/offchainlabs/nitro/util/arbmath"
 )
 
 func TestSequencerParallelNonces(t *testing.T) {

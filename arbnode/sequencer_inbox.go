@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbstate/daprovider"
+	"github.com/0x090909/nitro/arbutil"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/offchainlabs/nitro/arbstate/daprovider"
-	"github.com/offchainlabs/nitro/arbutil"
 
-	"github.com/offchainlabs/nitro/solgen/go/bridgegen"
+	"github.com/0x090909/nitro/solgen/go/bridgegen"
 )
 
 var sequencerBridgeABI *abi.ABI

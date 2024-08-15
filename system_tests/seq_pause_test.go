@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/execution/gethexec"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/offchainlabs/nitro/execution/gethexec"
 )
 
 func TestSequencerPause(t *testing.T) {

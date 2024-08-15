@@ -6,13 +6,13 @@ package gethhook
 import (
 	"errors"
 
+	"github.com/0x090909/nitro/arbos"
+	"github.com/0x090909/nitro/precompiles"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/arbos"
-	"github.com/offchainlabs/nitro/precompiles"
 )
 
 type ArbosPrecompileWrapper struct {

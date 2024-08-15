@@ -1,9 +1,9 @@
 package server_common
 
 import (
+	"github.com/0x090909/nitro/util/containers"
+	"github.com/0x090909/nitro/validator"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/util/containers"
-	"github.com/offchainlabs/nitro/validator"
 )
 
 type ValRun struct {

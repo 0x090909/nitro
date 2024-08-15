@@ -1,5 +1,5 @@
 // Copyright 2021-2024, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 package precompiles
 
@@ -14,12 +14,12 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/offchainlabs/nitro/arbos"
-	"github.com/offchainlabs/nitro/arbos/arbosState"
-	"github.com/offchainlabs/nitro/arbos/programs"
-	"github.com/offchainlabs/nitro/arbos/util"
-	pgen "github.com/offchainlabs/nitro/solgen/go/precompilesgen"
-	"github.com/offchainlabs/nitro/util/arbmath"
+	"github.com/0x090909/nitro/arbos"
+	"github.com/0x090909/nitro/arbos/arbosState"
+	"github.com/0x090909/nitro/arbos/programs"
+	"github.com/0x090909/nitro/arbos/util"
+	pgen "github.com/0x090909/nitro/solgen/go/precompilesgen"
+	"github.com/0x090909/nitro/util/arbmath"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"

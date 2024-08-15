@@ -1,5 +1,5 @@
 // Copyright 2023, Offchain Labs, Inc.
-// For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+// For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 package server_api
 
@@ -12,10 +12,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/offchainlabs/nitro/arbutil"
+	"github.com/0x090909/nitro/arbutil"
 
-	"github.com/offchainlabs/nitro/util/jsonapi"
-	"github.com/offchainlabs/nitro/validator"
+	"github.com/0x090909/nitro/util/jsonapi"
+	"github.com/0x090909/nitro/validator"
 )
 
 const Namespace string = "validation"

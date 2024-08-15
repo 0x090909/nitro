@@ -12,8 +12,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/offchainlabs/nitro/arbstate/daprovider"
-	"github.com/offchainlabs/nitro/util/signature"
+	"github.com/0x090909/nitro/arbstate/daprovider"
+	"github.com/0x090909/nitro/util/signature"
 )
 
 func checkSig(keyDir string, message []byte, timeout uint64, sig []byte) (*daprovider.DataAvailabilityCertificate, error) {

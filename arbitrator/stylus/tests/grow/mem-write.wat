@@ -1,5 +1,5 @@
 ;; Copyright 2023, Offchain Labs, Inc.
-;; For license information, see https://github.com/OffchainLabs/nitro/blob/master/LICENSE
+;; For license information, see https://github.com/0x090909/nitro/blob/master/LICENSE
 
 (module
     (import "vm_hooks" "pay_for_memory_grow" (func $pay_for_memory_grow (param i32)))

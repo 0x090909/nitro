@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/arbstate/daprovider"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/offchainlabs/nitro/arbstate/daprovider"
 )
 
 type dummyReader struct {

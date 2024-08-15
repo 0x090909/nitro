@@ -11,6 +11,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/gethhook"
+	"github.com/0x090909/nitro/solgen/go/node_interfacegen"
+	"github.com/0x090909/nitro/solgen/go/precompilesgen"
+	"github.com/0x090909/nitro/util/arbmath"
+	"github.com/0x090909/nitro/util/merkletree"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
@@ -18,11 +23,6 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/offchainlabs/nitro/gethhook"
-	"github.com/offchainlabs/nitro/solgen/go/node_interfacegen"
-	"github.com/offchainlabs/nitro/solgen/go/precompilesgen"
-	"github.com/offchainlabs/nitro/util/arbmath"
-	"github.com/offchainlabs/nitro/util/merkletree"
 )
 
 func TestP256VerifyEnabled(t *testing.T) {

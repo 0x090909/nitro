@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0x090909/nitro/util/testhelpers"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/util/testhelpers"
 )
 
 func pollLogMessagesFromJSONFile(t *testing.T, path string, expected []string) ([]string, error) {

@@ -15,9 +15,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/0x090909/nitro/util/colors"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/util/colors"
 	"golang.org/x/exp/slog"
 )
 

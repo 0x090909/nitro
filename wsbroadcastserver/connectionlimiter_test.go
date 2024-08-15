@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/offchainlabs/nitro/util/testhelpers"
+	"github.com/0x090909/nitro/util/testhelpers"
 )
 
 func TestIpv4BasicConnectionLimiting(t *testing.T) {

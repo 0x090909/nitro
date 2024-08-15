@@ -14,8 +14,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/offchainlabs/nitro/arbos/arbostypes"
-	"github.com/offchainlabs/nitro/util/arbmath"
+	"github.com/0x090909/nitro/arbos/arbostypes"
+	"github.com/0x090909/nitro/util/arbmath"
 )
 
 // This is a flaky test.

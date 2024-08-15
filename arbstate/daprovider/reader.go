@@ -7,10 +7,10 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/0x090909/nitro/arbutil"
+	"github.com/0x090909/nitro/util/blobs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/offchainlabs/nitro/arbutil"
-	"github.com/offchainlabs/nitro/util/blobs"
 )
 
 type Reader interface {

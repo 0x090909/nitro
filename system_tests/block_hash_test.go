@@ -7,8 +7,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/0x090909/nitro/solgen/go/mocksgen"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/offchainlabs/nitro/solgen/go/mocksgen"
 )
 
 func TestBlockHash(t *testing.T) {

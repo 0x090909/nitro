@@ -1,4 +1,4 @@
-module github.com/offchainlabs/nitro
+module github.com/0x090909/nitro
 
 go 1.21
 

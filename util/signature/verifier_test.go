@@ -10,8 +10,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/offchainlabs/nitro/util/contracts"
-	"github.com/offchainlabs/nitro/util/testhelpers"
+	"github.com/0x090909/nitro/util/contracts"
+	"github.com/0x090909/nitro/util/testhelpers"
 )
 
 func TestVerifier(t *testing.T) {

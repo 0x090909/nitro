@@ -7,12 +7,12 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/0x090909/nitro/arbutil"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/offchainlabs/nitro/arbutil"
 )
 
 type ValidatorWalletInterface interface {

@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/0x090909/nitro/util/stopwaiter"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/go-redis/redis/v8"
-	"github.com/offchainlabs/nitro/util/stopwaiter"
 	flag "github.com/spf13/pflag"
 )
 
